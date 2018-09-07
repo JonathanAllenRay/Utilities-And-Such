@@ -2,6 +2,7 @@
 from Collatz import collatz_eval
 from sys     import stdin, stdout
 
+# For a school project (Collatz not in this repo to prevent plagiarism)
 if __name__ == "__main__" :
     stdout.write('[')
     for n in range(1, 1000):
